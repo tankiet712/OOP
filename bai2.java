@@ -58,4 +58,7 @@ public class bai2 {
     public String toString() {
         return maSV + " - " + tenSV + " diem Tb : " + tinhDiemTB();
     }
+public void inSV() {
+        System.out.printf("%6d %-18s %10.2f %12.2f %12.2f \n", maSV, tenSV, diemTH, diemTL, tinhDiemTB());
+    }
 }
